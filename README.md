@@ -5,9 +5,7 @@
 - 강의링크: https://inf.run/eHxh
 - 강의내용 정리: 
 
-
-
-강의순서: 
+강의순서
 - **스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술: https://github.com/sjm767/inflearn-spring-start
 - 스프링 핵심 원리 - 기본편
 - 모든 개발자를 위한 HTTP 웹 기본 지식 
