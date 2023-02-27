@@ -2,14 +2,15 @@ package com.jaeshim.inflearn.spring.start.service;
 
 import com.jaeshim.inflearn.spring.start.domain.Member;
 import com.jaeshim.inflearn.spring.start.repository.MemberRepository;
-import com.jaeshim.inflearn.spring.start.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
 
 public class MemberService {
 
   private final MemberRepository memberRepository;
 
+  @Autowired
   public MemberService(MemberRepository memberRepository) {
     this.memberRepository = memberRepository;
   }
